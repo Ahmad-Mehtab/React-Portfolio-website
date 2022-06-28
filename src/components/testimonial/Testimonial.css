@@ -1,0 +1,75 @@
+.t-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+    position: relative;
+    margin-top: 7rem;
+    padding: 0 3rem 0 3rem;
+}
+.t-heading{
+    justify-content: center;
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.t-heading span:nth-of-type(2){
+    color: var(--orange);
+}
+.t-blur1{
+    
+    top: 16rem;
+    right: 0rem;
+}
+.t-blur2{
+   
+    top: 9rem;  
+    left: 0rem;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 12rem;
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    
+    
+}
+.testimonial>img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+}
+.testimonial>span{
+    color: gray;
+    text-align: justify;
+}
+.t-section .swiper{
+   height: 70%;
+   width: 100%;
+   
+}
+.t-section .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-section .swiper-pagination-bullet-active{
+    background-color: var(--orange);
+}
+@media screen and (max-width: 768px) {
+    .testimonial{
+        overflow: scroll;
+        height: 17rem;
+    }
+}

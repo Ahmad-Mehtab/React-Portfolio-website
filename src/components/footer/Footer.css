@@ -1,0 +1,25 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    height: 20rem;
+    position: relative;
+    justify-content: center;
+    
+   
+}
+.f-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3rem;
+    color: white;
+}
+.f-icons {
+   display: flex;
+    gap: 2rem;
+   
+}

@@ -1,0 +1,20 @@
+.navbar-nav *{
+   
+   padding-right: 15px;
+}
+
+.navbar .navbar-nav *{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    
+ }
+ .logo{
+   color: var(--black);
+   font-weight: bold;
+   font-size: 20px
+ }
+
+.navbar-nav .nav-item>*:hover {
+   color: var(--orange);
+}
